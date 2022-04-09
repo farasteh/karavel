@@ -1,0 +1,17 @@
+@import "btn";
+.ivu-select-large.ivu-select-single .ivu-select-selection {
+    height: 40px !important;
+}
+.ivu-input {
+    height: 40px !important;
+}
+.ivu-select-input {
+    height: 40px !important;
+}
+
+.ivu-select-single .ivu-select-selection {
+    height: 38px !important;
+}
+.ivu-select-large.ivu-select-multiple .ivu-select-selection {
+    min-height: 41px !important;
+}

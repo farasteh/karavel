@@ -1,0 +1,129 @@
+
+.box-btn-resume{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+    right: 0;
+    left: 0;
+}
+.custom-btn{
+    width: 100%;
+}
+.custom-btn {
+    color: #fff;
+    border-radius: 0px;
+    padding: 20px 0px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+    /* box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1); */
+    outline: none;
+    text-align: center;
+}
+.btn-15 {
+    border: none;
+    z-index: 1;
+    background: linear-gradient(to left,#19be6bad,#19be6b);
+}
+.btn-16 {
+    border: none;
+    z-index: 1;
+    background: linear-gradient(to left,#6c757d,#ccc)
+}
+.btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #36a16b;
+    border-radius: 0px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+}
+.btn-15:hover {
+    color: #fff;
+}
+.btn-15:hover:after {
+    left: 0;
+    width: 100%;
+}
+.btn-15:active {
+    top: 2px;
+}
+.btn-16:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #6c757d;
+    border-radius: 0px;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+}
+.btn-16:hover {
+    color: #fff;
+}
+.btn-16:hover:after {
+    left: 0;
+    width: 100%;
+}
+.btn-16:active {
+    top: 2px;
+}
+.box-add-item{
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0px 8px 5px rgba(0, 0, 0, 0.05);
+    margin: 0;
+    font-size: 14px;
+
+}
+.btn-icon-add-item{
+    text-align: center;
+    margin: auto;
+    width: 35px;
+    height: 35px;
+    background: var(--var-background-color);
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 21px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -15px;
+    cursor: pointer;
+}
+@media (max-width: 720px) {
+  .box-btn-resume{
+    position: fixed;
+    bottom: 20px;
+    left: 12px;
+    width: 130px;
+    right: auto;
+  }
+  .custom-btn {
+    width: 130px;
+  }
+}
+//@include media-breakpoint-up(sm) {
+//
+//}

@@ -1,0 +1,40 @@
+.box-resume{
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.12), 0 2px 4px 0 rgba(0,0,0,.08);
+    border-radius: 5px;
+    .box-body{
+        font-size: 14px;
+        text-align: justify;
+        line-height: 30px;
+    }
+}
+.box-body::before{
+    content: "";
+    background: #1e88e51c;
+    width: 150px;
+    height: 142px;
+    border-radius: 70% 30% 30% 70%/60% 40% 60% 40%;
+    position: absolute;
+    left: 102px;
+    top: 182px;
+}
+.box-body::after{
+    content: "";
+    background: #1e88e51c;
+    width: 150px;
+    height: 142px;
+    border-radius: 70% 30% 30% 70%/60% 40% 60% 40%;
+    position: absolute;
+    right: 74px;
+    bottom: 10px
+}
+.box-wave{
+    background: #1e88e51c;
+    width: 200px;
+    height: 200px;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    position: absolute;
+    bottom: 73px;
+    left: 10px;
+}

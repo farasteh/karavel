@@ -1,0 +1,4 @@
+[11-Jul-2021 11:48:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/karaveli/laravelServer/routes/api.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/karaveli/laravelServer/routes/api.php on line 19

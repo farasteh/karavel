@@ -1,0 +1,1 @@
+{"user":"safarbank","pass":"Salam@123","fromNum":"+983000505","toNum":"09108632746","patternCode":"vuim50pwgc","op":"pattern","inputData":{"verification-code":98549}}

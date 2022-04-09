@@ -1,0 +1,49 @@
+@import "btn";
+.ivu-select-large.ivu-select-single .ivu-select-selection {
+    height: 40px !important;
+}
+.ivu-input {
+    height: 40px !important;
+}
+.ivu-select-input {
+    height: 40px !important;
+}
+
+.ivu-select-single .ivu-select-selection {
+    height: 38px !important;
+}
+.ivu-select-large.ivu-select-multiple .ivu-select-selection {
+    min-height: 50px !important;
+}
+.ivu-select-large.ivu-select-multiple .ivu-select-selection .ivu-select-placeholder {
+    line-height: 45px !important;
+}
+.ivu-select-multiple .ivu-select-selection .ivu-select-placeholder  {
+    padding-right: 10px !important;
+}
+.box-user-resume{
+    box-shadow: 0 0px 8px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.res-poss.ivu-form-item .ivu-form-item-label {
+     width : 100% !important
+}
+
+.text-box {
+    font-size: 16px;
+    padding: 16px;
+}
+.btn-delet-form{
+    position: absolute;
+    width: 78px;
+    left: 10px;
+    color: red;
+    z-index: 99;
+    font-size: 27px;
+    text-align: left;
+    cursor: pointer;
+    top: -5px;
+}

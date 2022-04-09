@@ -1,0 +1,23 @@
+<template>
+<div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" :width="width" :height="height" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g xmlns="http://www.w3.org/2000/svg"><path d="m10.193 19.591c.173.235.439.383.73.406.026.002.052.003.077.003.264 0 .519-.104.707-.293l5.75-5.75c.391-.391.391-1.023 0-1.414s-1.023-.391-1.414 0l-4.926 4.926-2.061-2.81c-.327-.445-.953-.542-1.398-.215s-.542.953-.215 1.398z" fill="#1e88e5" data-original="#000000" style="" class=""/><path d="m21 3h-1v-2c0-.552-.448-1-1-1h-1c-.552 0-1 .448-1 1v2h-10v-2c0-.552-.448-1-1-1h-1c-.552 0-1 .448-1 1v2h-1c-1.654 0-3 1.346-3 3v15c0 1.654 1.346 3 3 3h18c1.654 0 3-1.346 3-3v-15c0-1.654-1.346-3-3-3zm1 18c0 .551-.449 1-1 1h-18c-.551 0-1-.449-1-1v-10.96h20z" fill="#1e88e5" data-original="#000000" style="" class=""/></g></g></svg></div>
+</template>
+
+<script>
+export default {
+    name: "today",
+    props:{
+        height:{
+            type : String,
+            default : '30px'
+        },
+        width:{
+            type : String,
+            default: '30px'
+        }
+    }
+}
+</script>
+
+<style scoped>
+
+</style>

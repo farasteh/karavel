@@ -1,0 +1,57 @@
+.karavel-btn {
+    background-color: var(--var-background-color) !important;
+    border-color: var(--var-background-color) !important ;
+}
+.karavel-btn:hover , .karavel-btn:focus  {
+    opacity: .9;
+    transition: all .2ms;
+}
+
+.disappeared-company , .disappearedCompany  {
+    user-select: none;
+    filter: blur(3px);
+}
+.font-12 {
+    font-size: 12px !important;
+}
+.font-16 {
+    font-size: 16px !important;
+}
+.font-14 {
+    font-size: 14px !important;
+}
+.font-15 {
+    font-size: 15px !important;
+}
+.font-18 {
+    font-size: 18px !important;
+}
+.font-25 {
+    font-size: 25px !important;
+}
+.cursor-poiner {
+    cursor:  pointer;
+}
+.position-relative {
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.disapeard-company-image {
+    background-size: cover;
+    width : 80px ;
+    height : 80px ;
+    border-radius: 50%;
+}
+.auth-error {
+    position: absolute ;
+    bottom: 0 ;
+    margin-bottom: -30px;
+}
+@media screen and (max-width: 900px) {
+    .ivu-modal {
+        width: auto !important;  ;
+        margin: 0 10px !important;
+    }
+}
